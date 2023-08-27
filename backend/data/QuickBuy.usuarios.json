@@ -1,0 +1,57 @@
+[{
+  "_id": {
+    "$oid": "64e16fc2afe30abcb7718968"
+  },
+  "nombre": "Juan Fernando",
+  "apellido": "Pérez Lopez",
+  "email": "juan@example.com",
+  "telefono": "123-456-7890",
+  "contrasena": "1234",
+  "ordenes": []
+},
+{
+  "_id": {
+    "$oid": "64e16fc2afe30abcb7718969"
+  },
+  "nombre": "María",
+  "apellido": "González Sachez",
+  "email": "maria@example.com",
+  "telefono": "987-654-3210",
+  "contrasena": "1234",
+  "ordenes": []
+},
+{
+  "_id": {
+    "$oid": "64e16fc2afe30abcb771896a"
+  },
+  "nombre": "Luis Fernando",
+  "apellido": "Ramírez Perez",
+  "email": "luis@example.com",
+  "telefono": "567-890-1234",
+  "contrasena": "1234",
+  "ordenes": []
+},
+{
+  "_id": {
+    "$oid": "64e6c01abd1d9d739aec22b8"
+  },
+  "nombre": "Natanael Fernando",
+  "apellido": "Rosa Lopez",
+  "email": "Natanael@example.com",
+  "telefono": "123-456-7892",
+  "contrasena": "1234",
+  "ordenes": [],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64eb1c6bf0325ce1d96dede0"
+  },
+  "nombre": "Jeyson Fernando",
+  "apellido": "Espinal Guevara",
+  "email": "fernandoespinalguevara@gmail.com",
+  "telefono": "99346961",
+  "contrasena": "1234",
+  "ordenes": [],
+  "__v": 0
+}]

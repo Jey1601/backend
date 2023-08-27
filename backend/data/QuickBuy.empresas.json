@@ -1,0 +1,443 @@
+[{
+  "_id": {
+    "$oid": "64e17498afe30abcb7718992"
+  },
+  "nombre": "Gadget",
+  "imagen": "../assets/empresas/64e17498afe30abcb7718992.jpg",
+  "puntuacion": 3,
+  "descripcion": "Los últimos gadgets y dispositivos electrónicos.",
+  "direccion": "Calle Tecnología 789, frente a la mundial.",
+  "telefono": "345-678-9012",
+  "email": "info@gadgetemporium.com",
+  "productos": [
+    {
+      "$oid": "64e16ff6afe30abcb771896f"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "64e17498afe30abcb7718993"
+  },
+  "nombre": "Fashion Haven",
+  "imagen": "../assets/empresas/64e17498afe30abcb7718993.jpg",
+  "puntuacion": 4,
+  "descripcion": "Las últimas tendencias en moda.",
+  "direccion": "Avenida Moda 456",
+  "telefono": "987-654-3211",
+  "email": "info@fashionhaven.com",
+  "productos": [
+    {
+      "$oid": "64e16ff6afe30abcb7718970"
+    },
+    {
+      "$oid": "64e16ff6afe30abcb7718971"
+    },
+    {
+      "$oid": "64e16ff6afe30abcb771897c"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "64e17498afe30abcb7718994"
+  },
+  "nombre": "Trendy Threads",
+  "imagen": "../assets/empresas/64e17498afe30abcb7718994.jpg",
+  "puntuacion": 4,
+  "descripcion": "Ropa de moda para todas las edades.",
+  "direccion": "Avenida Estilo 567",
+  "telefono": "234-567-8901",
+  "email": "info@trendythreads.com",
+  "productos": [
+    {
+      "$oid": "64e16ff6afe30abcb7718972"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "64e17498afe30abcb7718995"
+  },
+  "nombre": "MegaMart",
+  "imagen": "../assets/empresas/64e17498afe30abcb7718995.jpg",
+  "puntuacion": 5,
+  "descripcion": "Tu hipermercado favorito con todo lo que necesitas.",
+  "direccion": "Plaza Compras 123",
+  "telefono": "123-456-7890",
+  "email": "info@megamart.com",
+  "productos": [
+    {
+      "$oid": "64e16ff6afe30abcb7718974"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "64e17498afe30abcb7718996"
+  },
+  "nombre": "SuperMart",
+  "imagen": "../assets/empresas/64e17498afe30abcb7718996.jpg",
+  "puntuacion": 5,
+  "descripcion": "Tu supermercado de conveniencia.",
+  "direccion": "Plaza Mercado 789",
+  "telefono": "567-890-1234",
+  "email": "info@supermart.com",
+  "productos": [
+    {
+      "$oid": "64e16ff6afe30abcb7718973"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "64e17498afe30abcb7718997"
+  },
+  "nombre": "HomeWonders",
+  "imagen": "../assets/empresas/64e17498afe30abcb7718997.jpg",
+  "puntuacion": 3,
+  "descripcion": "Productos para hacer de tu hogar un lugar especial.",
+  "direccion": "Calle Decoración 567",
+  "telefono": "345-678-9012",
+  "email": "info@homewonders.com",
+  "productos": [
+    {
+      "$oid": "64e16ff6afe30abcb7718975"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "64e17498afe30abcb7718998"
+  },
+  "nombre": "Casa Decor",
+  "imagen": "../assets/empresas/64e17498afe30abcb7718998.jpg",
+  "puntuacion": 2,
+  "descripcion": "Productos para embellecer tu hogar.",
+  "direccion": "Calle Decoración 456",
+  "telefono": "987-654-3210",
+  "email": "info@casadecor.com",
+  "productos": []
+},
+{
+  "_id": {
+    "$oid": "64e17498afe30abcb7718999"
+  },
+  "nombre": "Delicious Delights",
+  "imagen": "../assets/empresas/64e17498afe30abcb7718999.jpg",
+  "puntuacion": 4,
+  "descripcion": "Platos deliciosos de todo el mundo.",
+  "direccion": "Avenida Sabor 678",
+  "telefono": "567-890-1234",
+  "email": "info@deliciousdelights.com",
+  "productos": [
+    {
+      "$oid": "64e16ff6afe30abcb7718976"
+    },
+    {
+      "$oid": "64e16ff6afe30abcb7718977"
+    },
+    {
+      "$oid": "64e16ff6afe30abcb771897f"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "64e17498afe30abcb771899a"
+  },
+  "nombre": "TastyBites",
+  "imagen": "../assets/empresas/64e17498afe30abcb771899a.jpg",
+  "puntuacion": 2,
+  "descripcion": "Deliciosa comida para todos los gustos.",
+  "direccion": "Avenida Gastronomía 678",
+  "telefono": "234-567-8901",
+  "email": "info@tastybites.com",
+  "productos": []
+},
+{
+  "_id": {
+    "$oid": "64e17498afe30abcb771899c"
+  },
+  "nombre": "Wellness Oasis",
+  "imagen": "../assets/empresas/64e17498afe30abcb771899c.jpg",
+  "puntuacion": 3,
+  "descripcion": "Productos y servicios para un estilo de vida saludable.",
+  "direccion": "Calle Bienestar 901",
+  "telefono": "789-012-3456",
+  "email": "info@wellnessoasis.com",
+  "productos": []
+},
+{
+  "_id": {
+    "$oid": "64e17498afe30abcb771899d"
+  },
+  "nombre": "ActiveZone Plus",
+  "imagen": "../assets/empresas/64e17498afe30abcb771899d.jpg",
+  "puntuacion": 4,
+  "descripcion": "Equipo y accesorios para actividades deportivas para todo tipo de personas",
+  "direccion": "Avenida Deportiva 2345",
+  "telefono": "234-567-8911",
+  "email": "info@activezone.com",
+  "productos": [
+    {
+      "$oid": "64e16ff6afe30abcb771897a"
+    },
+    {
+      "$oid": "64e16ff6afe30abcb7718983"
+    },
+    {
+      "$oid": "64e16ff6afe30abcb7718984"
+    },
+    {
+      "$oid": "64e16ff6afe30abcb7718985"
+    },
+    {
+      "$oid": "64e16ff6afe30abcb7718986"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "64e17498afe30abcb771899e"
+  },
+  "nombre": "SportsZone",
+  "imagen": "../assets/empresas/64e17498afe30abcb771899e.jpg",
+  "puntuacion": 5,
+  "descripcion": "Todo lo que necesitas para tu vida activa.",
+  "direccion": "Plaza Deportiva 234",
+  "telefono": "123-456-7890",
+  "email": "info@sportszone.com",
+  "productos": []
+},
+{
+  "_id": {
+    "$oid": "64e17498afe30abcb771899f"
+  },
+  "nombre": "TechMundo",
+  "imagen": "../assets/empresas/64e17498afe30abcb771899f.jpg",
+  "puntuacion": 4,
+  "descripcion": "Tu tienda de tecnología de confianza.",
+  "direccion": "Calle Principal 123",
+  "telefono": "123-456-7890",
+  "email": "info@techworld.com",
+  "productos": []
+},
+{
+  "_id": {
+    "$oid": "64e17498afe30abcb77189a0"
+  },
+  "nombre": "Gadget Maximus",
+  "imagen": "../assets/empresas/64e17498afe30abcb77189a0.jpg",
+  "puntuacion": 3,
+  "descripcion": "Los últimos gadgets y dispositivos electrónicos.",
+  "direccion": "Calle Tecnología 789",
+  "telefono": "345-678-9012",
+  "email": "info@gadgetemporium.com",
+  "productos": []
+},
+{
+  "_id": {
+    "$oid": "64e17498afe30abcb77189a1"
+  },
+  "nombre": "ElectroWave",
+  "imagen": "../assets/empresas/64e17498afe30abcb77189a1.jpg",
+  "puntuacion": 4,
+  "descripcion": "La mejor selección de productos electrónicos.",
+  "direccion": "Avenida Electrónica 456",
+  "telefono": "234-567-8901",
+  "email": "info@electrowave.com",
+  "productos": [
+    {
+      "$oid": "64e16ff6afe30abcb771897b"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "64e17498afe30abcb77189a2"
+  },
+  "nombre": "E-Fashion",
+  "imagen": "../assets/empresas/64e17498afe30abcb77189a2.jpg",
+  "puntuacion": 3,
+  "descripcion": "Estilo y moda electrónica para todos.",
+  "direccion": "Plaza Moda 567",
+  "telefono": "567-890-1234",
+  "email": "info@e-fashion.com",
+  "productos": []
+},
+{
+  "_id": {
+    "$oid": "64e17498afe30abcb77189a3"
+  },
+  "nombre": "Digital Mall",
+  "imagen": "../assets/empresas/64e17498afe30abcb77189a3.jpg",
+  "puntuacion": 5,
+  "descripcion": "Una experiencia de compra digital sin igual.",
+  "direccion": "Calle Tecnología 901",
+  "telefono": "789-012-3456",
+  "email": "info@digitalmall.com",
+  "productos": []
+},
+{
+  "_id": {
+    "$oid": "64e17498afe30abcb77189a4"
+  },
+  "nombre": "SuperMart Plus",
+  "imagen": "../assets/empresas/64e17498afe30abcb77189a4.jpg",
+  "puntuacion": 5,
+  "descripcion": "Tu hipermercado favorito con todo lo que necesitas.",
+  "direccion": "Plaza Compras 123",
+  "telefono": "123-456-7890",
+  "email": "info@supermart.com",
+  "productos": [
+    {
+      "$oid": "64e16ff6afe30abcb771897d"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "64e17498afe30abcb77189a5"
+  },
+  "nombre": "MarketWonders",
+  "imagen": "../assets/empresas/64e17498afe30abcb77189a5.jpg",
+  "puntuacion": 4,
+  "descripcion": "Un mundo de productos para el hogar y más.",
+  "direccion": "Avenida Hogar 234",
+  "telefono": "234-567-8901",
+  "email": "info@marketwonders.com",
+  "productos": []
+},
+{
+  "_id": {
+    "$oid": "64e17498afe30abcb77189a6"
+  },
+  "nombre": "HomeBliss",
+  "imagen": "../assets/empresas/64e17498afe30abcb77189a6.jpg",
+  "puntuacion": 3,
+  "descripcion": "Transforma tu hogar en un oasis de comodidad.",
+  "direccion": "Calle Confort 345",
+  "telefono": "345-678-9012",
+  "email": "info@homebliss.com",
+  "productos": []
+},
+{
+  "_id": {
+    "$oid": "64e17498afe30abcb77189a7"
+  },
+  "nombre": "DecorMasters",
+  "imagen": "../assets/empresas/64e17498afe30abcb77189a7.jpg",
+  "puntuacion": 4,
+  "descripcion": "Decora tu vida con productos de alta calidad.",
+  "direccion": "Plaza Decoración 456",
+  "telefono": "456-789-0123",
+  "email": "info@decormasters.com",
+  "productos": [
+    {
+      "$oid": "64e16ff6afe30abcb771897e"
+    },
+    {
+      "$oid": "64e16ff6afe30abcb7718982"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "64e17498afe30abcb77189a8"
+  },
+  "nombre": "YummyBites",
+  "imagen": "../assets/empresas/64e17498afe30abcb77189a8.jpg",
+  "puntuacion": 4,
+  "descripcion": "Sabores deliciosos de todas partes del mundo.",
+  "direccion": "Plaza Gastronomía 789",
+  "telefono": "789-012-3456",
+  "email": "info@yummybites.com",
+  "productos": []
+},
+{
+  "_id": {
+    "$oid": "64e17498afe30abcb77189a9"
+  },
+  "nombre": "HealthyHub",
+  "imagen": "../assets/empresas/64e17498afe30abcb77189a9.jpg",
+  "puntuacion": 5,
+  "descripcion": "Tu destino para opciones de comida saludable.",
+  "direccion": "Avenida Nutrición 890",
+  "telefono": "890-123-4567",
+  "email": "info@healthyhub.com",
+  "productos": []
+},
+{
+  "_id": {
+    "$oid": "64e17498afe30abcb77189aa"
+  },
+  "nombre": "SportsZone",
+  "imagen": "../assets/empresas/64e17498afe30abcb77189aa.jpg",
+  "puntuacion": 4,
+  "descripcion": "Equipo y accesorios para actividades deportivas.",
+  "direccion": "Plaza Deportiva 234",
+  "telefono": "234-567-8901",
+  "email": "info@sportszone.com",
+  "productos": [
+    {
+      "$oid": "64e16ff6afe30abcb7718981"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "64e17498afe30abcb77189ab"
+  },
+  "nombre": "FitFusion",
+  "imagen": "../assets/empresas/64e17498afe30abcb77189ab.jpg",
+  "puntuacion": 3,
+  "descripcion": "El lugar donde el fitness se encuentra con la moda.",
+  "direccion": "Calle Fitness 345",
+  "telefono": "345-678-9012",
+  "email": "info@fitfusion.com",
+  "productos": []
+},
+{
+  "_id": {
+    "$oid": "64e17498afe30abcb771899b"
+  },
+  "nombre": "HealthyLife",
+  "imagen": "../assets/empresas/64e17498afe30abcb771899b.jpg",
+  "puntuacion": 4,
+  "descripcion": "Tu bienestar es nuestra prioridad.",
+  "direccion": "Calle Saludable 901",
+  "telefono": "789-012-3456",
+  "email": "info@healthylife.com",
+  "productos": [
+    {
+      "$oid": "64e16ff6afe30abcb7718978"
+    },
+    {
+      "$oid": "64e16ff6afe30abcb7718979"
+    },
+    {
+      "$oid": "64e16ff6afe30abcb7718980"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "64e17498afe30abcb7718991"
+  },
+  "nombre": "TechWorld",
+  "imagen": "../assets/empresas/64e17498afe30abcb7718991.jpg",
+  "puntuacion": 4,
+  "descripcion": "Tu tienda de tecnología de confianza.",
+  "direccion": "Calle Principal 123",
+  "telefono": "123-456-7890",
+  "email": "info@techworld.com",
+  "productos": [
+    {
+      "$oid": "64e16ff6afe30abcb771896d"
+    },
+    {
+      "$oid": "64e16ff6afe30abcb771896e"
+    }
+  ]
+}]

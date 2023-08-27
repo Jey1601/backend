@@ -1,0 +1,286 @@
+[{
+  "_id": {
+    "$oid": "64e16ff6afe30abcb771896e"
+  },
+  "nombre": "Smartphone Premium",
+  "descripcion": "Teléfono inteligente con cámara de alta resolución.",
+  "precio": 800,
+  "imagen": "../assets/productos/64e16ff6afe30abcb771896e.webp",
+  "cantidad": 0,
+  "empresa": "TechWorld"
+},
+{
+  "_id": {
+    "$oid": "64e16ff6afe30abcb771896f"
+  },
+  "nombre": "Auriculares Inalámbricos",
+  "descripcion": "Sonido de alta calidad sin cables.",
+  "precio": 150,
+  "imagen": "../assets/productos/64e16ff6afe30abcb771896f.webp",
+  "cantidad": 0,
+  "empresa": "Gadget Emporium"
+},
+{
+  "_id": {
+    "$oid": "64e16ff6afe30abcb7718970"
+  },
+  "nombre": "Camiseta de Algodón",
+  "descripcion": "Camiseta cómoda y duradera para el uso diario, tienes hermosos detalles.",
+  "precio": 20,
+  "imagen": "../assets/productos/64e16ff6afe30abcb7718970.webp",
+  "cantidad": 0,
+  "empresa": "Fashion Haven"
+},
+{
+  "_id": {
+    "$oid": "64e16ff6afe30abcb7718971"
+  },
+  "nombre": "Vestido Elegante",
+  "descripcion": "Vestido perfecto para ocasiones especiales.",
+  "precio": 80,
+  "imagen": "../assets/productos/64e16ff6afe30abcb7718971.webp",
+  "cantidad": 0,
+  "empresa": "Fashion Haven"
+},
+{
+  "_id": {
+    "$oid": "64e16ff6afe30abcb7718972"
+  },
+  "nombre": "Zapatos Deportivos",
+  "descripcion": "Zapatos diseñados para el rendimiento y comodidad.",
+  "precio": 100,
+  "imagen": "../assets/productos/64e16ff6afe30abcb7718972.webp",
+  "cantidad": 0,
+  "empresa": "Trendy Threads"
+},
+{
+  "_id": {
+    "$oid": "64e16ff6afe30abcb7718973"
+  },
+  "nombre": "Productos Frescos",
+  "descripcion": "Frutas, verduras y productos frescos de alta calidad.",
+  "precio": 30,
+  "imagen": "../assets/productos/64e16ff6afe30abcb7718973.webp",
+  "cantidad": 0,
+  "empresa": "SuperMart"
+},
+{
+  "_id": {
+    "$oid": "64e16ff6afe30abcb7718974"
+  },
+  "nombre": "Productos de Limpieza",
+  "descripcion": "Artículos de limpieza para mantener tu hogar impecable.",
+  "precio": 10,
+  "imagen": "../assets/productos/64e16ff6afe30abcb7718974.webp",
+  "cantidad": 0,
+  "empresa": "MegaMart"
+},
+{
+  "_id": {
+    "$oid": "64e16ff6afe30abcb7718975"
+  },
+  "nombre": "Mesa de Centro Moderna",
+  "descripcion": "Añade estilo a tu sala de estar con esta mesa elegante.",
+  "precio": 250,
+  "imagen": "../assets/productos/64e16ff6afe30abcb7718975.webp",
+  "cantidad": 0,
+  "empresa": "HomeWonders"
+},
+{
+  "_id": {
+    "$oid": "64e16ff6afe30abcb7718976"
+  },
+  "nombre": "Pizza Margarita",
+  "descripcion": "Una deliciosa pizza con tomate, mozzarella y albahaca.",
+  "precio": 12,
+  "imagen": "../assets/productos/64e16ff6afe30abcb7718976.webp",
+  "cantidad": 0,
+  "empresa": "Delicious Delights"
+},
+{
+  "_id": {
+    "$oid": "64e16ff6afe30abcb7718977"
+  },
+  "nombre": "Ensalada de Pollo",
+  "descripcion": "Ensalada fresca con pollo a la parrilla y aderezos.",
+  "precio": 8,
+  "imagen": "../assets/productos/64e16ff6afe30abcb7718977.webp",
+  "cantidad": 0,
+  "empresa": "Delicious Delights"
+},
+{
+  "_id": {
+    "$oid": "64e16ff6afe30abcb7718978"
+  },
+  "nombre": "Suplemento Vitamínico",
+  "descripcion": "Complejo vitamínico para mantener una vida saludable.",
+  "precio": 25,
+  "imagen": "../assets/productos/64e16ff6afe30abcb7718978.webp",
+  "cantidad": 0,
+  "empresa": "HealthyLife"
+},
+{
+  "_id": {
+    "$oid": "64e16ff6afe30abcb7718979"
+  },
+  "nombre": "Monitor de Ejercicios",
+  "descripcion": "Monitor de actividad para realizar un seguimiento de tu progreso.",
+  "precio": 50,
+  "imagen": "../assets/productos/64e16ff6afe30abcb7718979.webp",
+  "cantidad": 0,
+  "empresa": "HealthyLife"
+},
+{
+  "_id": {
+    "$oid": "64e16ff6afe30abcb771897a"
+  },
+  "nombre": "Pelota de Fútbol Grande",
+  "descripcion": "Pelota de fútbol profesional para tus partidos y juegos en casa",
+  "precio": 35,
+  "imagen": "../assets/productos/64e16ff6afe30abcb771897a.webp",
+  "cantidad": 0,
+  "empresa": "ActiveZone"
+},
+{
+  "_id": {
+    "$oid": "64e16ff6afe30abcb771897b"
+  },
+  "nombre": "Monitor 4K",
+  "descripcion": "Monitor de alta resolución para una experiencia visual excepcional.",
+  "precio": 350,
+  "imagen": "../assets/productos/64e16ff6afe30abcb771897b.webp",
+  "cantidad": 0,
+  "empresa": "ElectroWave"
+},
+{
+  "_id": {
+    "$oid": "64e16ff6afe30abcb771897c"
+  },
+  "nombre": "Chaqueta de Cuero",
+  "descripcion": "Chaqueta de cuero genuino para un estilo clásico.",
+  "precio": 180,
+  "imagen": "../assets/productos/64e16ff6afe30abcb771897c.webp",
+  "cantidad": 0,
+  "empresa": "Fashion Haven"
+},
+{
+  "_id": {
+    "$oid": "64e16ff6afe30abcb771897d"
+  },
+  "nombre": "Cereal Multigrano",
+  "descripcion": "Cereal saludable y nutritivo para el desayuno.",
+  "precio": 5,
+  "imagen": "../assets/productos/64e16ff6afe30abcb771897d.webp",
+  "cantidad": 0,
+  "empresa": "SuperMart Plus"
+},
+{
+  "_id": {
+    "$oid": "64e16ff6afe30abcb771897e"
+  },
+  "nombre": "Aspiradora Robótica",
+  "descripcion": "Aspiradora autónoma para mantener tus suelos limpios.",
+  "precio": 280,
+  "imagen": "../assets/productos/64e16ff6afe30abcb771897e.webp",
+  "cantidad": 0,
+  "empresa": "DecorMasters"
+},
+{
+  "_id": {
+    "$oid": "64e16ff6afe30abcb771897f"
+  },
+  "nombre": "Sushi Variado",
+  "descripcion": "Una selección de sushi fresco y delicioso.",
+  "precio": 20,
+  "imagen": "../assets/productos/64e16ff6afe30abcb771897f.webp",
+  "cantidad": 0,
+  "empresa": "Delicious Delights"
+},
+{
+  "_id": {
+    "$oid": "64e16ff6afe30abcb7718980"
+  },
+  "nombre": "Suplemento de Proteínas",
+  "descripcion": "Suplemento para apoyar tus objetivos de fitness.",
+  "precio": 35,
+  "imagen": "../assets/productos/64e16ff6afe30abcb7718980.webp",
+  "cantidad": 0,
+  "empresa": "Delicious Delights"
+},
+{
+  "_id": {
+    "$oid": "64e16ff6afe30abcb7718981"
+  },
+  "nombre": "Balón de Baloncesto",
+  "descripcion": "Balón de baloncesto oficial para partidos y entrenamiento.",
+  "precio": 25,
+  "imagen": "../assets/productos/64e16ff6afe30abcb7718981.webp",
+  "cantidad": 0,
+  "empresa": "SportsZone"
+},
+{
+  "_id": {
+    "$oid": "64e16ff6afe30abcb7718982"
+  },
+  "nombre": "Juego de Sábanas",
+  "descripcion": "Sábanas suaves y cómodas para tu cama.",
+  "precio": 45,
+  "imagen": "../assets/productos/64e16ff6afe30abcb7718982.webp",
+  "cantidad": 0,
+  "empresa": "DecorMasters"
+},
+{
+  "_id": {
+    "$oid": "64e16ff6afe30abcb7718983"
+  },
+  "nombre": "Smartwatch Deportivo",
+  "descripcion": "Reloj inteligente diseñado para tus actividades físicas.",
+  "precio": 100,
+  "imagen": "../assets/productos/64e16ff6afe30abcb7718983.webp",
+  "cantidad": 0,
+  "empresa": "ActiveZone"
+},
+{
+  "_id": {
+    "$oid": "64e16ff6afe30abcb7718984"
+  },
+  "nombre": "Pantalones de Yoga",
+  "descripcion": "Pantalones cómodos para tus sesiones de yoga.",
+  "precio": 30,
+  "imagen": "../assets/productos/64e16ff6afe30abcb7718984.webp",
+  "cantidad": 0,
+  "empresa": "ActiveZone"
+},
+{
+  "_id": {
+    "$oid": "64e16ff6afe30abcb7718985"
+  },
+  "nombre": "Mochila de Viaje",
+  "descripcion": "Mochila resistente y versátil para tus aventuras.",
+  "precio": 60,
+  "imagen": "../assets/productos/64e16ff6afe30abcb7718985.webp",
+  "cantidad": 0,
+  "empresa": "ActiveZone"
+},
+{
+  "_id": {
+    "$oid": "64e16ff6afe30abcb7718986"
+  },
+  "nombre": "Bicicleta de Montaña",
+  "descripcion": "Bicicleta todoterreno para explorar senderos y caminos.",
+  "precio": 450,
+  "imagen": "../assets/productos/64e16ff6afe30abcb7718986.webp",
+  "cantidad": 0,
+  "empresa": "ActiveZone"
+},
+{
+  "_id": {
+    "$oid": "64e16ff6afe30abcb771896d"
+  },
+  "nombre": "Laptop Hiper",
+  "descripcion": "Potente laptop para trabajo, entretenimiento o juegos.",
+  "precio": 1300,
+  "imagen": "../assets/productos/64e16ff6afe30abcb771896d.webp",
+  "cantidad": 0,
+  "empresa": "TechWorld"
+}]

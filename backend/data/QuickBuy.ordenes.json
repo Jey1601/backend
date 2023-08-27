@@ -1,0 +1,239 @@
+[{
+  "_id": {
+    "$oid": "64eb1a11f0325ce1d96ded67"
+  },
+  "idUsuario": {
+    "$oid": "64e16fc2afe30abcb7718968"
+  },
+  "idMotorista": {
+    "$oid": "64e17012afe30abcb771898e"
+  },
+  "estado": "tomada",
+  "productos": [
+    {
+      "_id": {
+        "$oid": "64e16ff6afe30abcb7718976"
+      },
+      "cantidad": 1,
+      "precio": 12
+    },
+    {
+      "_id": {
+        "$oid": "64e16ff6afe30abcb771897f"
+      },
+      "cantidad": 1,
+      "precio": 20
+    },
+    {
+      "_id": {
+        "$oid": "64e16ff6afe30abcb7718977"
+      },
+      "cantidad": 1,
+      "precio": 8
+    }
+  ],
+  "ubicacion": "UNAH",
+  "total": 40,
+  "cantidad": 3,
+  "latitud": 14.083885393736635,
+  "longitud": -87.16203351554961,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64eb1abcf0325ce1d96ded7d"
+  },
+  "idUsuario": {
+    "$oid": "64e16fc2afe30abcb7718968"
+  },
+  "idMotorista": {
+    "$oid": "64eb1ef0f0325ce1d96dee0b"
+  },
+  "estado": "eneldestino",
+  "productos": [
+    {
+      "_id": {
+        "$oid": "64e16ff6afe30abcb7718984"
+      },
+      "cantidad": 1,
+      "precio": 30
+    },
+    {
+      "_id": {
+        "$oid": "64e16ff6afe30abcb771897a"
+      },
+      "cantidad": 1,
+      "precio": 30
+    },
+    {
+      "_id": {
+        "$oid": "64e16ff6afe30abcb7718983"
+      },
+      "cantidad": 1,
+      "precio": 100
+    }
+  ],
+  "ubicacion": "Unitec",
+  "total": 160,
+  "cantidad": 3,
+  "latitud": 14.048698323829532,
+  "longitud": -87.17445638073352,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64eb1af6f0325ce1d96ded89"
+  },
+  "idUsuario": {
+    "$oid": "64e16fc2afe30abcb771896a"
+  },
+  "idMotorista": {
+    "$oid": "64e16fc2afe30abcb771896a"
+  },
+  "estado": "pendiente",
+  "productos": [
+    {
+      "_id": {
+        "$oid": "64e16ff6afe30abcb7718984"
+      },
+      "cantidad": 1,
+      "precio": 30
+    },
+    {
+      "_id": {
+        "$oid": "64e16ff6afe30abcb7718983"
+      },
+      "cantidad": 1,
+      "precio": 100
+    },
+    {
+      "_id": {
+        "$oid": "64e16ff6afe30abcb771897a"
+      },
+      "cantidad": 1,
+      "precio": 30
+    },
+    {
+      "_id": {
+        "$oid": "64e16ff6afe30abcb7718986"
+      },
+      "cantidad": 1,
+      "precio": 450
+    }
+  ],
+  "ubicacion": "El picacho",
+  "total": 610,
+  "cantidad": 4,
+  "latitud": 14.119610272790435,
+  "longitud": -87.19613992091419,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64eb1b20f0325ce1d96ded91"
+  },
+  "idUsuario": {
+    "$oid": "64e16fc2afe30abcb771896a"
+  },
+  "idMotorista": {
+    "$oid": "64eb1ef0f0325ce1d96dee0b"
+  },
+  "estado": "tomada",
+  "productos": [
+    {
+      "_id": {
+        "$oid": "64e16ff6afe30abcb7718985"
+      },
+      "cantidad": 4,
+      "precio": 60
+    },
+    {
+      "_id": {
+        "$oid": "64e16ff6afe30abcb7718986"
+      },
+      "cantidad": 4,
+      "precio": 450
+    }
+  ],
+  "ubicacion": "Cascadas Mall",
+  "total": 2040,
+  "cantidad": 8,
+  "latitud": 14.076042159182565,
+  "longitud": -87.20119941905816,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64eb1b5af0325ce1d96deda0"
+  },
+  "idUsuario": {
+    "$oid": "64e16fc2afe30abcb7718969"
+  },
+  "idMotorista": {
+    "$oid": "64e17012afe30abcb771898e"
+  },
+  "estado": "tomada",
+  "productos": [
+    {
+      "_id": {
+        "$oid": "64e16ff6afe30abcb7718970"
+      },
+      "cantidad": 3,
+      "precio": 20
+    },
+    {
+      "_id": {
+        "$oid": "64e16ff6afe30abcb7718971"
+      },
+      "cantidad": 3,
+      "precio": 80
+    },
+    {
+      "_id": {
+        "$oid": "64e16ff6afe30abcb771897c"
+      },
+      "cantidad": 4,
+      "precio": 180
+    }
+  ],
+  "ubicacion": "City Mall",
+  "total": 1020,
+  "cantidad": 10,
+  "latitud": 14.077093781227214,
+  "longitud": -87.20011524083768,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64eb1b71f0325ce1d96deda5"
+  },
+  "idUsuario": {
+    "$oid": "64e16fc2afe30abcb7718969"
+  },
+  "idMotorista": {
+    "$oid": "64e17012afe30abcb771898d"
+  },
+  "estado": "tomada",
+  "productos": [
+    {
+      "_id": {
+        "$oid": "64e16ff6afe30abcb7718970"
+      },
+      "cantidad": 4,
+      "precio": 20
+    },
+    {
+      "_id": {
+        "$oid": "64e16ff6afe30abcb771897c"
+      },
+      "cantidad": 4,
+      "precio": 180
+    }
+  ],
+  "ubicacion": "Santa Lucia",
+  "total": 800,
+  "cantidad": 8,
+  "latitud": 14.11459844308731,
+  "longitud": -87.11059834326826,
+  "__v": 0
+}]

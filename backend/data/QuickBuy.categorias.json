@@ -1,0 +1,279 @@
+[{
+  "_id": {
+    "$oid": "64e162a9afe30abcb7718944"
+  },
+  "imagen": "../assets/categorias/64e162a9afe30abcb7718944.webp",
+  "nombre": "Supermercados",
+  "empresas": [
+    {
+      "_id": {
+        "$oid": "64e17498afe30abcb7718995"
+      },
+      "nombre": "MegaMart",
+      "imagen": "../assets/empresas/64e17498afe30abcb7718995.jpg",
+      "puntuacion": 5
+    },
+    {
+      "_id": {
+        "$oid": "64e17498afe30abcb7718996"
+      },
+      "nombre": "SuperMart",
+      "imagen": "../assets/empresas/64e17498afe30abcb7718996.jpg",
+      "puntuacion": 5
+    },
+    {
+      "_id": {
+        "$oid": "64e17498afe30abcb77189a4"
+      },
+      "nombre": "SuperMart Plus",
+      "imagen": "../assets/empresas/64e17498afe30abcb77189a4.jpg",
+      "puntuacion": 5
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "64e162a9afe30abcb7718943"
+  },
+  "imagen": "../assets/categorias/64e162a9afe30abcb7718943.webp",
+  "nombre": "Ropa",
+  "empresas": [
+    {
+      "_id": {
+        "$oid": "64e17498afe30abcb77189a2"
+      },
+      "nombre": "E-Fashion",
+      "imagen": "../assets/empresas/64e17498afe30abcb77189a2.jpg",
+      "puntuacion": 3
+    },
+    {
+      "_id": {
+        "$oid": "64e17498afe30abcb77189a3"
+      },
+      "nombre": "Digital Mall",
+      "imagen": "../assets/empresas/64e17498afe30abcb77189a3.jpg",
+      "puntuacion": 5
+    },
+    {
+      "_id": {
+        "$oid": "64e17498afe30abcb7718993"
+      },
+      "nombre": "Fashion Haven",
+      "imagen": "../assets/empresas/64e17498afe30abcb7718993.jpg",
+      "puntuacion": 4
+    },
+    {
+      "_id": {
+        "$oid": "64e17498afe30abcb7718994"
+      },
+      "nombre": "Trendy Threads",
+      "imagen": "../assets/empresas/64e17498afe30abcb7718994.jpg",
+      "puntuacion": 4
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "64e162a9afe30abcb7718942"
+  },
+  "imagen": "../assets/categorias/64e162a9afe30abcb7718942.webp",
+  "nombre": "Tecnología",
+  "empresas": [
+    {
+      "_id": {
+        "$oid": "64e17498afe30abcb7718991"
+      },
+      "nombre": "TechWorld",
+      "imagen": "../assets/empresas/64e17498afe30abcb7718991.jpg",
+      "puntuacion": 4
+    },
+    {
+      "_id": {
+        "$oid": "64e17498afe30abcb7718992"
+      },
+      "nombre": "Gadget Emporium",
+      "imagen": "../assets/empresas/64e17498afe30abcb7718992.jpg",
+      "puntuacion": 3
+    },
+    {
+      "_id": {
+        "$oid": "64e17498afe30abcb771899f"
+      },
+      "nombre": "TechMundo",
+      "imagen": "../assets/empresas/64e17498afe30abcb771899f.jpg",
+      "puntuacion": 4
+    },
+    {
+      "_id": {
+        "$oid": "64e17498afe30abcb77189a0"
+      },
+      "nombre": "Gadget Maximus",
+      "imagen": "../assets/empresas/64e17498afe30abcb77189a0.jpg",
+      "puntuacion": 3
+    },
+    {
+      "_id": {
+        "$oid": "64e17498afe30abcb77189a1"
+      },
+      "nombre": "ElectroWave",
+      "imagen": "../assets/empresas/64e17498afe30abcb77189a1.jpg",
+      "puntuacion": 4
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "64e162a9afe30abcb7718948"
+  },
+  "imagen": "../assets/categorias/64e162a9afe30abcb7718948.webp",
+  "nombre": "Deportes",
+  "empresas": [
+    {
+      "_id": {
+        "$oid": "64e17498afe30abcb771899d"
+      },
+      "nombre": "ActiveZone",
+      "imagen": "../assets/empresas/64e17498afe30abcb771899d.jpg",
+      "puntuacion": 4
+    },
+    {
+      "_id": {
+        "$oid": "64e17498afe30abcb771899e"
+      },
+      "nombre": "SportsZone",
+      "imagen": "../assets/empresas/64e17498afe30abcb771899e.jpg",
+      "puntuacion": 5
+    },
+    {
+      "_id": {
+        "$oid": "64e17498afe30abcb77189aa"
+      },
+      "nombre": "SportsZone Plus",
+      "imagen": "../assets/empresas/64e17498afe30abcb77189aa.jpg",
+      "puntuacion": 4
+    },
+    {
+      "_id": {
+        "$oid": "64e17498afe30abcb77189ab"
+      },
+      "nombre": "FitFusion",
+      "imagen": "../assets/empresas/64e17498afe30abcb77189ab.jpg",
+      "puntuacion": 3
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "64e162a9afe30abcb7718945"
+  },
+  "imagen": "../assets/categorias/64e162a9afe30abcb7718945.webp",
+  "nombre": "Hogar",
+  "empresas": [
+    {
+      "_id": {
+        "$oid": "64e17498afe30abcb7718997"
+      },
+      "nombre": "HomeWonders",
+      "imagen": "../assets/empresas/64e17498afe30abcb7718997.jpg",
+      "puntuacion": 3
+    },
+    {
+      "_id": {
+        "$oid": "64e17498afe30abcb7718998"
+      },
+      "nombre": "Casa Decor",
+      "imagen": "../assets/empresas/64e17498afe30abcb7718998.jpg",
+      "puntuacion": 2
+    },
+    {
+      "_id": {
+        "$oid": "64e17498afe30abcb77189a5"
+      },
+      "nombre": "MarketWonders",
+      "imagen": "../assets/empresas/64e17498afe30abcb77189a5.jpg",
+      "puntuacion": 4
+    },
+    {
+      "_id": {
+        "$oid": "64e17498afe30abcb77189a6"
+      },
+      "nombre": "HomeBliss",
+      "imagen": "../assets/empresas/64e17498afe30abcb77189a6.jpg",
+      "puntuacion": 3
+    },
+    {
+      "_id": {
+        "$oid": "64e17498afe30abcb77189a7"
+      },
+      "nombre": "DecorMasters",
+      "imagen": "../assets/empresas/64e17498afe30abcb77189a7.jpg",
+      "puntuacion": 4
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "64e162a9afe30abcb7718947"
+  },
+  "imagen": "../assets/categorias/64e162a9afe30abcb7718947.webp",
+  "nombre": "Salud",
+  "empresas": [
+    {
+      "_id": {
+        "$oid": "64e17498afe30abcb771899b"
+      },
+      "nombre": "HealthyLife",
+      "imagen": "../assets/empresas/64e17498afe30abcb771899b.jpg",
+      "puntuacion": 4
+    },
+    {
+      "_id": {
+        "$oid": "64e17498afe30abcb771899c"
+      },
+      "nombre": "Wellness Oasis",
+      "imagen": "../assets/empresas/64e17498afe30abcb771899c.jpg",
+      "puntuacion": 3
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "64e162a9afe30abcb7718946"
+  },
+  "imagen": "../assets/categorias/64e162a9afe30abcb7718946.webp",
+  "nombre": "Restaurantes",
+  "empresas": [
+    {
+      "_id": {
+        "$oid": "64e17498afe30abcb7718999"
+      },
+      "nombre": "Delicious Delights",
+      "imagen": "../assets/empresas/64e17498afe30abcb7718999.jpg",
+      "puntuacion": 4
+    },
+    {
+      "_id": {
+        "$oid": "64e17498afe30abcb771899a"
+      },
+      "nombre": "TastyBites",
+      "imagen": "../assets/empresas/64e17498afe30abcb771899a.jpg",
+      "puntuacion": 2
+    },
+    {
+      "_id": {
+        "$oid": "64e17498afe30abcb77189a8"
+      },
+      "nombre": "YummyBites",
+      "imagen": "../assets/empresas/64e17498afe30abcb77189a8.jpg",
+      "puntuacion": 4
+    },
+    {
+      "_id": {
+        "$oid": "64e17498afe30abcb77189a9"
+      },
+      "nombre": "HealthyHub",
+      "imagen": "../assets/empresas/64e17498afe30abcb77189a9.jpg",
+      "puntuacion": 5
+    }
+  ]
+}]

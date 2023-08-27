@@ -1,0 +1,43 @@
+[{
+  "_id": {
+    "$oid": "64e17012afe30abcb771898b"
+  },
+  "nombre": "Juan José",
+  "apellido": "Pérez Espino",
+  "identificacion": "123456789",
+  "direccion": "Calle Principal 123",
+  "telefono": "123-456-7890",
+  "email": "juan@example.com",
+  "placa": "ABC123",
+  "contrasena": "1234",
+  "estado": "disponible"
+},
+{
+  "_id": {
+    "$oid": "64e17012afe30abcb771898d"
+  },
+  "nombre": "Luis Fernando",
+  "apellido": "Ramírez Rosa",
+  "identificacion": "456789123",
+  "direccion": "Calle Terciaria 789",
+  "telefono": "789-123-4560",
+  "email": "luis@example.com",
+  "placa": "DEF456",
+  "contrasena": "1234",
+  "imagen": "",
+  "estado": "nodisponible"
+},
+{
+  "_id": {
+    "$oid": "64eb1ef0f0325ce1d96dee0b"
+  },
+  "nombre": "Fernando Jeyson",
+  "apellido": "Guevara Espinal",
+  "identificacion": "0801200119258",
+  "direccion": "Col Monterrey",
+  "telefono": "99346961",
+  "email": "fer@gmail.com",
+  "placa": "ASDFS",
+  "contrasena": "1234",
+  "__v": 0
+}]

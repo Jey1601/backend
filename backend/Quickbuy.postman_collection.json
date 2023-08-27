@@ -1,0 +1,1068 @@
+{
+	"info": {
+		"_postman_id": "42a71b5e-f2dd-43c4-a910-159fc2dd2e3d",
+		"name": "Quickbuy",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "28240354"
+	},
+	"item": [
+		{
+			"name": "usuarios",
+			"item": [
+				{
+					"name": "login",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"email\":\"juan@example.com\",\r\n    \"contrasena\":\"1234\"\r\n\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/usuarios/login",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"usuarios",
+								"login"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "agregar usaurio",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"nombre\": \"Natanael Fernando\",\r\n  \"apellido\": \"Rosa Lopez\",\r\n  \"email\": \"Natanael@example.com\",\r\n  \"telefono\": \"123-456-7892\",\r\n  \"contrasena\": \"1234\",\r\n  \"ordenes\": []\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/usuarios",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"usuarios"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "obtener ordenes",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/usuarios/64e16fc2afe30abcb7718968/ordenes",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"usuarios",
+								"64e16fc2afe30abcb7718968",
+								"ordenes"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "obtener ordenes pendientes",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/usuarios/64e16fc2afe30abcb7718968/ordenes/pendientes",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"usuarios",
+								"64e16fc2afe30abcb7718968",
+								"ordenes",
+								"pendientes"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "obtener ordenes en camino",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/usuarios/64e16fc2afe30abcb7718968/ordenes/encamino",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"usuarios",
+								"64e16fc2afe30abcb7718968",
+								"ordenes",
+								"encamino"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "obtener ordenes entregadas",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/usuarios/64e16fc2afe30abcb7718968/ordenes/entregadas",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"usuarios",
+								"64e16fc2afe30abcb7718968",
+								"ordenes",
+								"entregadas"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Obtener datos usuario",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/usuarios/64e16fc2afe30abcb7718969/datos",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"usuarios",
+								"64e16fc2afe30abcb7718969",
+								"datos"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "motoristas",
+			"item": [
+				{
+					"name": "login",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"email\":\"juan@example.com\",\r\n    \"contrasena\":\"1234\"\r\n\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/motoristas/login",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"motoristas",
+								"login"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "agregar motorista",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n \"nombre\": \"Natanael Rosa\",\r\n  \"apellido\": \"Chavarria Espino\",\r\n  \"identificacion\": \"123456778\",\r\n  \"direccion\": \"Calle Principal 123\",\r\n  \"telefono\": \"123-456-7897\",\r\n  \"email\": \"juan@example.com\",\r\n  \"placa\": \"ABC178\",\r\n  \"contrasena\": \"1234\"\r\n  \r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/motoristas",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"motoristas"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "obtener ordenes",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/motoristas/64e17012afe30abcb771898b/ordenes",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"motoristas",
+								"64e17012afe30abcb771898b",
+								"ordenes"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "obtener ordenes pendientes",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/motoristas/64e17012afe30abcb771898b/ordenes/pendientes",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"motoristas",
+								"64e17012afe30abcb771898b",
+								"ordenes",
+								"pendientes"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "obtener ordenes tomadas",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/motoristas/64e17012afe30abcb771898b/ordenes/tomadas",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"motoristas",
+								"64e17012afe30abcb771898b",
+								"ordenes",
+								"tomadas"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "obtener ordenes entregadas",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/motoristas/64e17012afe30abcb771898b/ordenes/entregadas",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"motoristas",
+								"64e17012afe30abcb771898b",
+								"ordenes",
+								"entregadas"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "obtener motoristas",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/motoristas",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"motoristas"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Obtener ordenes sin entregar",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/ordenes/sinentregar",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"ordenes",
+								"sinentregar"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "obtener motorista",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/motoristas/64ea3069168e9071249dae70",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"motoristas",
+								"64ea3069168e9071249dae70"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "eliminar motorista",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/motoristas/64ea3069168e9071249dae70",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"motoristas",
+								"64ea3069168e9071249dae70"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "administradores",
+			"item": [
+				{
+					"name": "login",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"usuario\":\"admin1\",\r\n    \"contrasena\":\"1234\"\r\n\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/administradores/login",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"administradores",
+								"login"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "productos",
+			"item": [
+				{
+					"name": "obtener un producto",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/productos/64e16ff6afe30abcb771896e",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"productos",
+								"64e16ff6afe30abcb771896e"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "actualizar producto",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"nombre\":\"Laptop Ultra\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/productos/64e16ff6afe30abcb771896d",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"productos",
+								"64e16ff6afe30abcb771896d"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "eliminar producto",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/productos/64e16ff6afe30abcb771896d",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"productos",
+								"64e16ff6afe30abcb771896d"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "agregar producto",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"descripcion\":\"prueba\",\r\n    \"precio\":200,\r\n    \"imagen\": \"prueba\",\r\n    \"cantidad\":0,\r\n    \"empresa\":\"empresa\"\r\n\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/productos",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"productos"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "categorias",
+			"item": [
+				{
+					"name": "obtener categorias",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/categorias",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"categorias"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "obtener categoria",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/categorias/64e162a9afe30abcb7718944",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"categorias",
+								"64e162a9afe30abcb7718944"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "empresas",
+			"item": [
+				{
+					"name": "obtener empresas",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/empresas",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"empresas"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "obtener empresa",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/empresas/64e17498afe30abcb7718991",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"empresas",
+								"64e17498afe30abcb7718991"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "obtener productos",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/empresas/64e17498afe30abcb77189a1/productos",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"empresas",
+								"64e17498afe30abcb77189a1",
+								"productos"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "eliminar producto",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/empresas/64e17498afe30abcb7718991/productos/64e16ff6afe30abcb771896d",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"empresas",
+								"64e17498afe30abcb7718991",
+								"productos",
+								"64e16ff6afe30abcb771896d"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "agregar producto",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"id\":\"64e16ff6afe30abcb771896d\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/empresas/64e17498afe30abcb7718992/productos",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"empresas",
+								"64e17498afe30abcb7718992",
+								"productos"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "actualizar empresa",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"nombre\":\"Gadget Emporium\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/empresas/64e17498afe30abcb7718992",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"empresas",
+								"64e17498afe30abcb7718992"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "ordenes",
+			"item": [
+				{
+					"name": "obtener ordenes",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/ordenes",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"ordenes"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "obtener orden",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/ordenes/64e99c09171df19d2884d60b",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"ordenes",
+								"64e99c09171df19d2884d60b"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "actualizar cantidad producto",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n             \"id\":\"64e16ff6afe30abcb771896e\",\r\n                \"cantidad\": 87\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/ordenes/64e6c88a436c6b953dd1ecb1/productos",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"ordenes",
+								"64e6c88a436c6b953dd1ecb1",
+								"productos"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "actualizar campos de orden",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"estado\":\"encamino\"\r\n    \r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/ordenes/64e9a072171df19d2884d668",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"ordenes",
+								"64e9a072171df19d2884d668"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "agregar producto",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"_id\": {\r\n    \"$oid\": \"64e16ff6afe30abcb7718972\"\r\n  },\r\n  \"nombre\": \"Zapatos Deportivos\",\r\n  \"descripcion\": \"Zapatos diseñados para el rendimiento y comodidad.\",\r\n  \"precio\": 100,\r\n  \"imagen\": \"../assets/productos/64e16ff6afe30abcb7718972.webp\",\r\n  \"cantidad\": 2\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/ordenes/64e6c88a436c6b953dd1ecaf/productos",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"ordenes",
+								"64e6c88a436c6b953dd1ecaf",
+								"productos"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "agregar orden",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/ordenes",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"ordenes"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "obtener ordenes pendientes",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/ordenes/pendientes/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"ordenes",
+								"pendientes",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "obtener ordenes sinentregar",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/ordenes/sinentregar",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"ordenes",
+								"sinentregar"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "eliminar orden",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/ordenes/64e99c09171df19d2884d60b",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"ordenes",
+								"64e99c09171df19d2884d60b"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "notificaciones",
+			"item": [
+				{
+					"name": "obtener notificaciones",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/notificaciones",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"notificaciones"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "agregar notificacion",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{ \r\n        \"informacion\": {\r\n            \"nombre\": \"Juan José\",\r\n            \"apellido\": \"Pérez Espino\",\r\n            \"identificacion\": \"123456789\",\r\n            \"direccion\": \"Calle Principal 123\",\r\n            \"telefono\": \"123-456-7890\",\r\n            \"email\": \"juan@example.com\",\r\n            \"placa\": \"ABC123\",\r\n            \"contrasena\": \"1234\",\r\n            \"estado\": \"disponible\"\r\n        },\r\n        \"estado\": \"atendida\"\r\n    }",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/notificaciones",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"notificaciones"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "eliminar notificacion",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/notificaciones/64e7c53bf28fa27fc55a3d8b",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"notificaciones",
+								"64e7c53bf28fa27fc55a3d8b"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "obtener notificacion",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/notificaciones/64e7cc55ba0dafbe21d327ba",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"notificaciones",
+								"64e7cc55ba0dafbe21d327ba"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "New Request",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"estado\":\"pendiente\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/notificaciones/64e7cc55ba0dafbe21d327ba",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"notificaciones",
+								"64e7cc55ba0dafbe21d327ba"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
